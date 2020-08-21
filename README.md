@@ -29,7 +29,12 @@ The analysis helped come to the following conclusions:
 2. The main explanatory variables for price (Average Daily Rate) appear to be Reserved Room Type, Assigned Room Type and Market Segment.
 3. The bookings are predominantly spread within the summer months, with a fall down in the winter.
 
+## Suggested Improvements
+
+
+## Blog Post
 A full blog post describing the results can be found [here](: 
+
 
 # Acknowledgements
 The data has been taken from [Kaggle](https://www.kaggle.com/dansbecker/nba-shot-logs)
