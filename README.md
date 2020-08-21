@@ -18,7 +18,8 @@ For this project there are:
 - Numpy v1.18
 - Matplotplib v3.2.1
 - Seaborn v0.10.1
-- Scikit-Learn v0.22
+- Scikit-Learn v0.224
+- XGBoost 1.20=.0
 - datetime
 - Jupyter Notebook(only if running locally)
 
