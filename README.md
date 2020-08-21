@@ -19,7 +19,7 @@ For this project there are:
 - Matplotplib v3.2.1
 - Seaborn v0.10.1
 - Scikit-Learn v0.224
-- XGBoost 1.20=.0
+- XGBoost 1.2.0
 - datetime
 - Jupyter Notebook(only if running locally)
 
