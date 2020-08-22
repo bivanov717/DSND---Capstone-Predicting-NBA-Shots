@@ -42,7 +42,7 @@ The final results from the three models are presented below. The main metric con
 
 The most important features recognized are Shot Distance, Game Clock, Shot Clock and Closest Defender Distance.
 
-For a full article documenting the results, please refer to the blog post [here](
+For a full article documenting the results, please refer to the blog post [here](https://medium.com/@b_ivanov/predicting-nba-shots-943b07975995).
 
 ## Suggested Improvements
 
