@@ -27,7 +27,17 @@ For this project there are:
 
 The final results from the three models are presented below. The main metric considered here is the F1 score, with the Logistic Regression having the highest one. However, the results are similar across the board.
 
-```fefewf```
+```
+╔═══════════╦═══════════╦═══════╦════════╗
+║   Metric  ║Logistic   ║Random ║XGBoost ║
+║           ║Regression ║Forest ║        ║
+╠═══════════╬═══════════╬═══════╬════════╣
+║ Accuracy  ║   0.585   ║ 0.576 ║ 0.590  ║
+║ Precision ║   0.583   ║ 0.584 ║ 0.620  ║
+║ Recall    ║   0.583   ║ 0.519 ║ 0.472  ║
+║ MSE       ║   0.415   ║ 0.424 ║ 0.410  ║
+║ F1 Score  ║   0.583   ║ 0.550 ║ 0.534  ║
+╚═══════════╩═══════════╩═══════╩════════╝```
 
 The most important features recognized are Shot Distance, Game Clock, Shot Clock and Closest Defender Distance.
 
