@@ -25,10 +25,22 @@ For this project there are:
 
 ## Results
 
-The analysis helped come to the following conclusions:
-1. Lead time appears to be about 100 days for all holidays, with family holidays having slightly shorter lead time, compared to non-family. The price and lead time have a small negative correlation.
-2. The main explanatory variables for price (Average Daily Rate) appear to be Reserved Room Type, Assigned Room Type and Market Segment.
-3. The bookings are predominantly spread within the summer months, with a fall down in the winter.
+The final results from the three models are presented above. The main metric considered here is the F1 score, with the Logistic Regression having the highest one. However, the results are similar across the board.
+
+╔═══════════╦═══════════╦═══════╦════════╗
+║   Metric  ║Logistic   ║Random ║XGBoost ║
+║           ║Regression ║Forest ║        ║
+╠═══════════╬═══════════╬═══════╬════════╣
+║ Accuracy  ║   0.585   ║ 0.576 ║ 0.590  ║
+║ Precision ║   0.583   ║ 0.584 ║ 0.620  ║
+║ Recall    ║   0.583   ║ 0.519 ║ 0.472  ║
+║ MSE       ║   0.415   ║ 0.424 ║ 0.410  ║
+║ F1 Score  ║   0.583   ║ 0.550 ║ 0.534  ║
+╚═══════════╩═══════════╩═══════╩════════╝
+
+The most important features recognized are Shot Distance, Game Clock, Shot Clock and Closest Defender Distance.
+
+For a full article documenting the results, please refer to the blog post [here](
 
 ## Suggested Improvements
 
@@ -39,10 +51,6 @@ The analysis helped come to the following conclusions:
 3. Explore further parameters for the models. I have tried optimizing it with a few parameters, however, there is further opportunity to improve and experiment here.
 
 3. Try different models to classify the shots. I have used the 3 most popular classifiers, however, with more data points we could expand the analysis further and try models such as Support Vector Machine or Neural Networks.
-
-## Blog Post
-A full blog post describing the results can be found [here](: 
-
 
 # Acknowledgements
 The data has been taken from [Kaggle](https://www.kaggle.com/dansbecker/nba-shot-logs)
