@@ -32,6 +32,13 @@ The analysis helped come to the following conclusions:
 
 ## Suggested Improvements
 
+1. Gather further data for Margin and Outcome at the point of the shot i.e. what is the point margin between the teams and what team is winning when the shot is made. Those could potentially be extremely useful fields as players can potentially feel pressured to take riskier and quicker shots if they are currently losing the game.
+
+2. Additional data points around the effectiveness of the players in both offense and defense could potentially be extremely valuable as predictors. Statistics such as FG%, 2 Point %, and 3 Point % as a starting point could help us evaluate players effectiveness on the offensive end. Additionally, some states such as steals and blocks can help us evaluate the player's ability to defend. The analysis above excluded the player's effect and focused mainly on the technicalities behind the shot, however, the ability of the player could be a very important determining factor here.
+
+3. Explore further parameters for the models. I have tried optimizing it with a few parameters, however, there is further opportunity to improve and experiment here.
+
+3. Try different models to classify the shots. I have used the 3 most popular classifiers, however, with more data points we could expand the analysis further and try models such as Support Vector Machine or Neural Networks.
 
 ## Blog Post
 A full blog post describing the results can be found [here](: 
